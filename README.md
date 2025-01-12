@@ -2,14 +2,14 @@
 This repository contains material and code related to API test Automation
 
 ## Forcing Maven to using Java 16
-```
+```xml
 <properties>
 	<maven.compiler.source>16</maven.compiler.source>
 	<maven.compiler.target>16</maven.compiler.target>
 </properties>
 ```
 ## Adding reprting plugins
-```
+```xml
 <build>
 	<plugins>
 		<plugin>
