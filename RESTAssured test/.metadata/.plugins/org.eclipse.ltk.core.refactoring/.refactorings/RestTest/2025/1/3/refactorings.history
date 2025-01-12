@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;models.Product.category_name&apos; in &apos;models.Product&apos;&#x0D;&#x0A;- Original project: &apos;RestTest&apos;&#x0D;&#x0A;- Original element: &apos;models.Product.category_name&apos;&#x0D;&#x0A;- Getter method name: &apos;getCategory_name&apos;&#x0D;&#x0A;- Setter method name: &apos;setCategory_name&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;category_name, ...&apos;" flags="589830" getter="getCategory_name" id="org.eclipse.jdt.ui.self.encapsulate" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;models{Product.java[Product^category_name" insertion="12" setter="setCategory_name" stamp="1736684868273" version="1.0" visibility="1"/>
+</session>
