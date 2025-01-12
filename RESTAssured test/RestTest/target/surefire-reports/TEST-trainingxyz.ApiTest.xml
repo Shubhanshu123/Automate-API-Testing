@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="trainingxyz.ApiTest" time="1.926" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="E:\API TESTING\Automate-API-Testing\RESTAssured test\RestTest\target\test-classes;E:\API TESTING\Automate-API-Testing\RESTAssured test\RestTest\target\classes;C:\Users\shubh\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\shubh\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\shubh\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\shubh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\shubh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\shubh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\shubh\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\shubh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\shubh\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\shubh\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\shubh\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\shubh\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\shubh\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\shubh\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\shubh\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\shubh\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.3\junit-jupiter-api-5.11.3.jar;C:\Users\shubh\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\shubh\.m2\repository\org\junit\platform\junit-platform-commons\1.11.3\junit-platform-commons-1.11.3.jar;C:\Users\shubh\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\shubh\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.3\junit-jupiter-engine-5.11.3.jar;C:\Users\shubh\.m2\repository\org\junit\platform\junit-platform-engine\1.11.3\junit-platform-engine-1.11.3.jar;C:\Users\shubh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.1\jackson-databind-2.18.1.jar;C:\Users\shubh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.1\jackson-annotations-2.18.1.jar;C:\Users\shubh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.1\jackson-core-2.18.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
+    <property name="sun.java.command" value="C:\Users\shubh\AppData\Local\Temp\surefire6894117987477177984\surefirebooter-20250112193013193_3.jar C:\Users\shubh\AppData\Local\Temp\surefire6894117987477177984 2025-01-12T19-30-13_082-jvmRun1 surefire-20250112193013193_1tmp surefire_0-20250112193013193_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\API TESTING\Automate-API-Testing\RESTAssured test\RestTest\target\test-classes;E:\API TESTING\Automate-API-Testing\RESTAssured test\RestTest\target\classes;C:\Users\shubh\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\shubh\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\shubh\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\shubh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\shubh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\shubh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\shubh\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\shubh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\shubh\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\shubh\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\shubh\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\shubh\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\shubh\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\shubh\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\shubh\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\shubh\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.3\junit-jupiter-api-5.11.3.jar;C:\Users\shubh\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\shubh\.m2\repository\org\junit\platform\junit-platform-commons\1.11.3\junit-platform-commons-1.11.3.jar;C:\Users\shubh\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\shubh\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.3\junit-jupiter-engine-5.11.3.jar;C:\Users\shubh\.m2\repository\org\junit\platform\junit-platform-engine\1.11.3\junit-platform-engine-1.11.3.jar;C:\Users\shubh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.1\jackson-databind-2.18.1.jar;C:\Users\shubh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.1\jackson-annotations-2.18.1.jar;C:\Users\shubh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.1\jackson-core-2.18.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\shubh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-23"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\API TESTING\Automate-API-Testing\RESTAssured test\RestTest"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\shubh\AppData\Local\Temp\surefire6894117987477177984\surefirebooter-20250112193013193_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.1+11-39"/>
+    <property name="user.name" value="shubh"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\shubh\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\shubh\AppData\Local\Temp\"/>
+    <property name="java.version" value="23.0.1"/>
+    <property name="user.dir" value="E:\API TESTING\Automate-API-Testing\RESTAssured test\RestTest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\app\shubh\product\21c\dbhomeXE\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Users\shubh\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\shubh\AppData\Local\Programs\Python\Python313\;C:\Users\shubh\AppData\Local\Programs\Python\Launcher\;C:\Users\shubh\AppData\Local\Microsoft\WindowsApps;C:\Users\shubh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\shubh\AppData\Local\gitkraken\bin;C:\Users\shubh\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.1.1\bin;;C:\Users\shubh\.dotnet\tools;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23.0.1+11-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="updateProduct" classname="trainingxyz.ApiTest" time="0.979">
+    <system-out><![CDATA[{
+    "message": "Product updated"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getDeserializedProduct" classname="trainingxyz.ApiTest" time="0.229"/>
+  <testcase name="getComplexResponseBodyProduct" classname="trainingxyz.ApiTest" time="0.44">
+    <system-out><![CDATA[{
+    "records": [
+        {
+            "id": "42",
+            "name": "Water Bottle",
+            "description": "Blue water bottle",
+            "price": "12.00",
+            "category_id": "3",
+            "category_name": "Active Wear - Unisex"
+        },
+        {
+            "id": "43",
+            "name": "Water Bottle",
+            "description": "Blue Water Bootle, Holds 64 ounces",
+            "price": "12.00",
+            "category_id": "3",
+            "category_name": "Active Wear - Unisex"
+        },
+        {
+            "id": "40",
+            "name": "Water Bottle",
+            "description": "Blue water bottle",
+            "price": "12.00",
+            "category_id": "3",
+            "category_name": "Active Wear - Unisex"
+        },
+        {
+            "id": "41",
+            "name": "Water Bottle",
+            "description": "Blue Water Bootle, Holds 64 ounces",
+            "price": "12.00",
+            "category_id": "3",
+            "category_name": "Active Wear - Unisex"
+        },
+        {
+            "id": "38",
+            "name": "Water Bottle",
+            "description": "Blue water bottle",
+            "price": "12.00",
+            "category_id": "3",
+            "category_name": "Active Wear - Unisex"
+        },
+        {
+            "id": "39",
+            "name": "Water Bottle",
+            "description": "Blue Water Bootle, Holds 64 ounces",
+            "price": "12.00",
+            "category_id": "3",
+            "category_name": "Active Wear - Unisex"
+        },
+        {
+            "id": "36",
+            "name": "Water Bottle",
+            "description": "Blue water bottle",
+            "price": "12.00",
+            "category_id": "3",
+            "category_name": "Active Wear - Unisex"
+        },
+        {
+            "id": "37",
+            "name": "Water Bottle",
+            "description": "Blue Water Bootle, Holds 64 ounces",
+            "price": "12.00",
+            "category_id": "3",
+            "category_name": "Active Wear - Unisex"
+        },
+        {
+            "id": "34",
+            "name": "Water Bottle",
+            "description": "Blue water bottle",
+            "price": "12.00",
+            "category_id": "3",
+            "category_name": "Active Wear - Unisex"
+        },
+        {
+            "id": "35",
+            "name": "Water Bottle",
+            "description": "Blue Water Bootle, Holds 64 ounces",
+            "price": "12.00",
+            "category_id": "3",
+            "category_name": "Active Wear - Unisex"
+        },
+        {
+            "id": "32",
+            "name": "Water Bottle",
+            "description": "Blue water bottle",
+            "price": "12.00",
+            "category_id": "3",
+            "category_name": "Active Wear - Unisex"
+        },
+        {
+            "id": "33",
+            "name": "Water Bottle",
+            "description": "Blue Water Bootle, Holds 64 ounces",
+            "price": "12.00",
+            "category_id": "3",
+            "category_name": "Active Wear - Unisex"
+        },
+        {
+            "id": "30",
+            "name": "Water Bottle",
+            "description": "Blue water bottle",
+            "price": "12.00",
+            "category_id": "3",
+            "category_name": "Active Wear - Unisex"
+        },
+        {
+            "id": "31",
+            "name": "Water Bottle",
+            "description": "Blue Water Bootle, Holds 64 ounces",
+            "price": "12.00",
+            "category_id": "3",
+            "category_name": "Active Wear - Unisex"
+        },
+        {
+            "id": "28",
+            "name": "Water Bottle",
+            "description": "Blue water bottle",
+            "price": "12.00",
+            "category_id": "3",
+            "category_name": "Active Wear - Unisex"
+        },
+        {
+            "id": "29",
+            "name": "Water Bottle",
+            "description": "Blue Water Bootle, Holds 64 ounces",
+            "price": "12.00",
+            "category_id": "3",
+            "category_name": "Active Wear - Unisex"
+        },
+        {
+            "id": "27",
+            "name": "Water Bottle",
+            "description": "Blue Water Bootle, Holds 64 ounces",
+            "price": "12.00",
+            "category_id": "3",
+            "category_name": "Active Wear - Unisex"
+        },
+        {
+            "id": "26",
+            "name": "Water Bottle",
+            "description": "Blue water bottle",
+            "price": "12.00",
+            "category_id": "3",
+            "category_name": "Active Wear - Unisex"
+        },
+        {
+            "id": "24",
+            "name": "Water Bottle",
+            "description": "Blue water bottle",
+            "price": "12.00",
+            "category_id": "3",
+            "category_name": "Active Wear - Unisex"
+        },
+        {
+            "id": "25",
+            "name": "Water Bottle",
+            "description": "Blue Water Bootle, Holds 64 ounces",
+            "price": "12.00",
+            "category_id": "3",
+            "category_name": "Active Wear - Unisex"
+        },
+        {
+            "id": "23",
+            "name": "Water Bottle",
+            "description": "Blue Water Bootle, Holds 64 ounces",
+            "price": "12.00",
+            "category_id": "3",
+            "category_name": "Active Wear - Unisex"
+        },
+        {
+            "id": "21",
+            "name": "Water Bottle",
+            "description": "Blue water bottle",
+            "price": "12.00",
+            "category_id": "3",
+            "category_name": "Active Wear - Unisex"
+        },
+        {
+            "id": "20",
+            "name": "Water Bottle",
+            "description": "Blue Water Bootle, Holds 64 ounces",
+            "price": "12.00",
+            "category_id": "3",
+            "category_name": "Active Wear - Unisex"
+        },
+        {
+            "id": "19",
+            "name": "Water Bottle",
+            "description": "Blue Water Bootle, Holds 64 ounces",
+            "price": "15.00",
+            "category_id": "3",
+            "category_name": "Active Wear - Unisex"
+        },
+        {
+            "id": "18",
+            "name": "Multi-Vitamin (90 capsules)",
+            "description": "A daily dose of our Multi-Vitamins fulfills a day’s nutritional needs for over 12 vitamins and minerals.",
+            "price": "10.00",
+            "category_id": "4",
+            "category_name": "Supplements"
+        },
+        {
+            "id": "17",
+            "name": "Magnesium 250 mg (100 tablets)",
+            "description": "Magnesium is critical to many bodily processes, and supports nerve, muscle, and heart function.",
+            "price": "12.00",
+            "category_id": "4",
+            "category_name": "Supplements"
+        },
+        {
+            "id": "16",
+            "name": "Iron 65 mg (150 caplets)",
+            "description": "Iron: Re+vive, re+fuel, re+generate, naturally, with H+SPORT Iron. Our supplements are sourced from the purest ingredients—and potency is proven in independent laboratory tests. Iron is essential for transporting oxygen in the body and for the formation of red blood cells.",
+            "price": "14.00",
+            "category_id": "4",
+            "category_name": "Supplements"
+        },
+        {
+            "id": "15",
+            "name": "Flaxseed Oil 1000 mg (90 capsule",
+            "description": "Our Flaxseed Oil contains Omegas 3, 6, and 9 for a heart-healthy option without the use of fish oil.",
+            "price": "12.00",
+            "category_id": "4",
+            "category_name": "Supplements"
+        },
+        {
+            "id": "14",
+            "name": "Calcium 400 IU (150 tablets)",
+            "description": "Our Calcium supports strong bones and teeth and may help prevent osteoporosis.",
+            "price": "10.00",
+            "category_id": "4",
+            "category_name": "Supplements"
+        },
+        {
+            "id": "13",
+            "name": "V-Neck Sweater",
+            "description": "This medium-weight sweater, made from organic knitted cotton and bamboo, is the perfect solution to a chilly night at the campground or a misty walk on the beach.",
+            "price": "65.00",
+            "category_id": "1",
+            "category_name": "Active Wear - Men"
+        },
+        {
+            "id": "12",
+            "name": "V-Neck Pullover",
+            "description": "This organic hemp jersey pullover is perfect in a pinch. Wear for casual days at the office, a game of hoops after work, or running your weekend errands.",
+            "price": "65.00",
+            "category_id": "1",
+            "category_name": "Active Wear - Men"
+        },
+        {
+            "id": "11",
+            "name": "Thermal Fleece Jacket",
+            "description": "Cool red shirt!aOur thermal organic fleece jacket, is brushed on both sides for ultra softness and warmth. This medium-weight jacket is versatile all year around, and can be worn with layers for the winter season.",
+            "price": "60.00",
+            "category_id": "1",
+            "category_name": "Active Wear - Men"
+        },
+        {
+            "id": "10",
+            "name": "Skater Graphic T-Shirt",
+            "description": "Hip at the skate park or around down, our pre-shrunk organic cotton graphic T-shirt has you covered.",
+            "price": "33.00",
+            "category_id": "1",
+            "category_name": "Active Wear - Men"
+        },
+        {
+            "id": "9",
+            "name": "Polo Shirt",
+            "description": "Our pre-shrunk organic cotton polo shirt is perfect for weekend activities, lounging around the house, and casual days at the office. With its triple-stitched sleeves and waistband, our polo has maximum durability.",
+            "price": "35.00",
+            "category_id": "1",
+            "category_name": "Active Wear - Men"
+        },
+        {
+            "id": "8",
+            "name": "V-Neck T-Shirt",
+            "description": "Our pre-shrunk organic cotton t-shirt, with its slightly fitted waist and elegant V-neck is designed to flatter. You’ll want one in every color!",
+            "price": "17.00",
+            "category_id": "3",
+            "category_name": "Active Wear - Unisex"
+        },
+        {
+            "id": "7",
+            "name": "Unisex Thermal Vest",
+            "description": "Our thermal vest, made from organic bamboo with recycled plastic down filling, is a favorite of both men and women. You’ll help the environment, and have a wear-easy piece for many occasions.",
+            "price": "95.00",
+            "category_id": "3",
+            "category_name": "Active Wear - Unisex"
+        },
+        {
+            "id": "6",
+            "name": "UItra-Soft Tank Top",
+            "description": "This versatile tank can be worn in the gym, under a blazer, or for a day out in the sun. Made from our patented organic bamboo and cotton mix, our ultra-soft tank never stops feeling soft, even when you forget the fabric softener.",
+            "price": "22.00",
+            "category_id": "2",
+            "category_name": "Active Wear - Women"
+        },
+        {
+            "id": "5",
+            "name": "Stretchy Dance Pants",
+            "description": "Whether dancing the samba, mastering a yoga pose, or scaling the climbing wall, our stretchy dance pants, made from 80% organic cotton and 20% Lycra, are the most versatile and comfortable workout pants you’ll ever have the pleasure of wearing.",
+            "price": "55.00",
+            "category_id": "2",
+            "category_name": "Active Wear - Women"
+        },
+        {
+            "id": "4",
+            "name": "Slicker Jacket",
+            "description": "Wind and rain are no match for our organic bamboo slicker jacket for men and women. Triple stitched seams, zippered pockets, and a stay-tight hood are just a few features of our best-selling jacket.",
+            "price": "125.00",
+            "category_id": "3",
+            "category_name": "Active Wear - Unisex"
+        },
+        {
+            "id": "3",
+            "name": "Grunge Skater Jeans",
+            "description": "Our boy-cut jeans are for men and women who appreciate that skate park fashions aren’t just for skaters. Made from the softest and most flexible organic cotton denim.",
+            "price": "68.00",
+            "category_id": "3",
+            "category_name": "Active Wear - Unisex"
+        },
+        {
+            "id": "2",
+            "name": "Cross-Back Training Tank",
+            "description": "The most awesome phone of 2013!",
+            "price": "299.00",
+            "category_id": "2",
+            "category_name": "Active Wear - Women"
+        },
+        {
+            "id": "1",
+            "name": "Bamboo Thermal Ski Coat",
+            "description": "You’ll be the most environmentally conscious skier on the slopes – and the most stylish – wearing our fitted bamboo thermal ski coat, made from organic bamboo with recycled plastic down filling.",
+            "price": "99.00",
+            "category_id": "2",
+            "category_name": "Active Wear - Women"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deleteProduct" classname="trainingxyz.ApiTest" time="0.021">
+    <system-out><![CDATA[{
+    "message": "Product was deleted."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getProduct" classname="trainingxyz.ApiTest" time="0.03"/>
+  <testcase name="getProductResponseFields" classname="trainingxyz.ApiTest" time="0.052"/>
+  <testcase name="getCategories" classname="trainingxyz.ApiTest" time="0.01">
+    <system-out><![CDATA[{
+    "records": [
+        {
+            "id": "1",
+            "name": "Active Wear - Men",
+            "description": "H+ ACTIVE Apparel-Men"
+        },
+        {
+            "id": "3",
+            "name": "Active Wear - Unisex",
+            "description": "H+ ACTIVE Apparel-Unisex"
+        },
+        {
+            "id": "2",
+            "name": "Active Wear - Women",
+            "description": "H+ ACTIVE Apparel-Women"
+        },
+        {
+            "id": "4",
+            "name": "Supplements",
+            "description": "H+ POWER Supplements"
+        },
+        {
+            "id": "19",
+            "name": "test x name A",
+            "description": "test x description A"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createSerializedProduct" classname="trainingxyz.ApiTest" time="0.063">
+    <system-out><![CDATA[{
+    "message": "Product was created."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getHeaders" classname="trainingxyz.ApiTest" time="0.033">
+    <system-out><![CDATA[Date: Sun, 12 Jan 2025 14:00:15 GMT
+Server: Apache/2.2.31 (Win32) DAV/2 mod_ssl/2.2.31 OpenSSL/1.0.2h mod_fcgid/2.3.9 mod_wsgi/3.4 Python/2.7.6 PHP/7.4.1 mod_perl/2.0.8 Perl/v5.16.3
+X-Powered-By: PHP/7.4.1
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: access
+Access-Control-Allow-Methods: GET
+Access-Control-Allow-Credentials: true
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Content-Length: 147
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json
+]]></system-out>
+  </testcase>
+  <testcase name="createProduct" classname="trainingxyz.ApiTest" time="0.045">
+    <system-out><![CDATA[{
+    "message": "Product was created."
+}
+]]></system-out>
+  </testcase>
+</testsuite>
